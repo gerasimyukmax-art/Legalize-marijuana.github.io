@@ -1,0 +1,611 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Days One', sans-serif;
+    
+}
+    
+.background{
+    background: radial-gradient(#E27669, #BBA293);
+    margin: 0;
+    height: auto;
+}
+    
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+    
+.basket{
+    text-align: right;
+}
+    
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+    
+.title{
+    margin-top: 150px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #EE577E;
+}
+    
+.title_1{
+    font-size: 82px;
+    font-weight: 400;
+    color: #EE577E;
+    margin-left: 50px;
+}
+    
+.title_2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #EE577E;
+    margin-left: 55px;  
+}
+    
+.button_1{
+    width: 300px;
+    height: 70px;
+    background-color: #474747;
+    border: none;
+    border-radius: 20px 20px 0px 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.button_1:hover{
+    background-color: #838383;
+}
+    
+.icons{
+    display: flex;
+    margin-top: 35px;
+    width: 550px;
+    justify-content: space-between;
+}
+    
+.icons img{
+    size: 50px;
+}
+    
+.img-main{
+    width: 500px;
+    transition: ease-in-out 0.3s;
+}
+
+.img-main:hover{
+    width: 600px;
+}
+
+.card{
+    margin-top: 100px;
+    width: 300px;
+    height: 420px;
+    border-radius: 100px;
+    background-color: #F5B1B3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card img{
+    position: relative;
+    top: -30px;
+}
+
+.card p {
+    position: relative;
+    top: -30px;
+}
+
+.cost{
+    font-size: 50px;
+}
+
+.cost_minus{
+    text-decoration:line-through;
+    font-size: 40px;
+}
+
+.title_3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Caveat';
+}
+
+.block_1{
+    display: flex;
+}
+
+.text_right{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.text_right h1{
+    font-family: 'Caveat';
+    font-size: 64px;
+    top: 90px;
+}
+
+.text_right p{
+    position: relative;
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 700;
+    width: 700px;
+    top: 30px;
+    right: -30px;
+    font-family: 
+    Crimson Text;
+}
+
+.card_2{
+    position: relative;
+    top: 400px;
+    left: 200px;
+    width: 300px;
+    height: 450px;
+    border-radius: 100px;
+    background-color: #F5B1B3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Caveat';
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.card_2 img{
+    position: relative;
+    top: -30px;
+}
+
+.card_2 p {
+    position: relative;
+    top: -30px;
+}
+
+.title_3{
+    position: relative;
+    font-size: 64px;
+    top: 190px;
+}
+
+.losos{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.losos p{
+    margin-top: 60px;
+    font-size: 35px;
+    width: 550px;
+    font-weight: 700;
+    font-family: Crimson Text;
+}
+
+.losos img{
+    position: relative;
+    top: -70px;
+    width: 400px;
+}
+
+.screen_2{
+    height: 390px;
+}
+
+.screen_3{
+    overflow: hidden;
+    height: 430px;
+}
+
+.text_3{
+    position: relative;
+    right: -490px;
+    top: -360px;
+}
+
+
+.text_3 h1{
+    font-family: 'Caveat';
+    font-size: 45px;
+
+}
+
+.text_3 p{
+    text-align: right;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    width: 700px;
+    font-family: Crimson Text;
+    
+}
+
+.text_4{
+    position: relative;
+    right: -800px;
+    width: 420px;
+    top: -540px;
+}
+
+
+.text_4 p{
+    text-align: left;
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: Crimson Text;
+}
+
+.screen_3 img{
+    width: 400px;
+}
+
+
+.screen_4{
+    height: 800px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.screen_4 img{
+    height: 800px;
+}
+
+
+.last{
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: Crimson Text;
+}
+
+.poroshenko {
+    display: inline-block;
+    
+  }
+  
+  img {
+    transition: all .3s ease;
+  }
+  
+  .poroshenko:hover img {
+    opacity: 0;
+  }
+  
+  .poroshenko:hover {
+    background: url("/images/poroh.png") no-repeat 50% 50%;
+  }
+
+  .zelya {
+    display: inline-block;
+  }
+
+  
+  .zelya:hover img {
+    opacity: 0;
+  }
+  
+  .zelya:hover {
+    background: url("/images/zelya.png") no-repeat 50% 50%;
+  }
+
+  .astanavites{
+    display: inline-block;
+  }
+
+    
+  .astanavites:hover img {
+    opacity: 0;
+  }
+  
+  .astanavites:hover {
+    background: url("/images/mitchevich.png") no-repeat 50% 50%;
+    
+  }
+  .poroshenko,
+  .zelya,
+  .astanavites {
+    width: 400px; 
+    height: auto;
+    text-align: center;
+    transition: all .3s ease;
+  }
+  .img-main1 {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+}
+.button-back {
+    width: 500px;
+    height: 50px;
+    background-color: #474747;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translateX(1150px);
+
+}
+
+.button-back:hover {
+    background-color: #838383;
+}
+
+  @media (max-width: 1199px) {
+    .title{
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 70;
+        color: #EE577E;
+    }
+    .title_1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #EE577E;
+        margin-left: 50px;
+    }
+    .title_2{
+        font-size: 40px;
+        font-weight: 800;
+        color: #EE577E;
+        margin-left: 60px;  
+    }
+    .img-main{
+        width: 150px;
+        transition: ease-in-out 0.3s;
+        transform: translateX(-175px);
+
+        
+    }
+    .img-main:hover{
+        width: 150px;
+        transform: translateX(-150px);
+
+    }
+    .icons{
+        display: flex;
+        margin-top: 35px;
+        width: 450px;
+        justify-content: space-between;
+    }
+    .text_right p{
+        font-size: 19px;
+        line-height: 100%;
+        font-weight: 700;
+        width: 200px;
+        top: 10px;
+        right: 100px;
+        font-family: 
+        Crimson Text;
+        transform: translateX(60px);
+    }
+    .text_right{
+        text-align: left;
+        margin-top: 5px;
+        transform: translateX(-150px);
+
+    }
+    .text_right h1{
+        font-family: 'Caveat';
+        font-size: 30px;
+        top: 50px;
+    }
+    .background{
+        background: radial-gradient(#E27669, #BBA293);
+      
+    }
+    .icons{
+        display: flex;
+        margin-top: 35px;
+        width: 415px;
+        justify-content: space-between;
+    }
+    .card{
+        margin-top: 50px;
+        width: 250px;
+        height: 310px;
+        border-radius: 100px;
+        background-color: #F5B1B3;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-family: 'Caveat';
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .cost{
+        font-size: 40px;
+    }
+    .card img{
+        position: relative;
+        top: -30px;
+        height: 200px;
+    }
+    .card_2{
+    top: 350px;
+    left: 200px;
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+    background-color: #F5B1B3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Caveat';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    transform: translateX(-250px);
+    
+}
+
+.card_2 img{
+    position: relative;
+    top: -30px;
+    width: 200px;
+}
+
+.card_2 p {
+    position: relative;
+    top: -30px;
+}
+.title_3{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Caveat';
+}
+.losos{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+
+
+}
+.losos img{
+    position: relative;
+    top: -10px;
+    width: 100%; 
+    display: block;
+    
+}       
+.losos p{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 220px;
+    font-weight: 700;
+    font-family: Crimson Text;
+    text-align: left;
+
+
+}
+.screen_3{
+    overflow: hidden;
+    height: 400px;
+
+}
+.screen_3 img{
+    width: 220px;
+    margin-top: 5px;
+    height: auto;
+}
+.text_3{
+    position: relative;
+    right:20px;
+    top:-200px;
+
+}
+.text_3 p {
+    font-size: 15px; 
+    font-weight: 700; 
+    font-family: 'Crimson Text'; 
+    margin: 0; 
+    width: 300px;
+    transform: translateX(135px);
+    
+    
+}
+.screen_2{
+    height: 250px;
+    width: 300px;
+}
+.text_3 h1{
+    font-family: 'Caveat';
+    font-size: 40px;
+   transform: translateX(25px);
+   margin-top: 200px;
+
+}
+.screen_4{
+    height: 600px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.screen_4 img{
+    height: 600px;
+
+}
+.text_4{
+    position: relative;
+    right: -666px;
+    width: 400px;
+    top: 100px;
+    transform: translateX(-650px);
+     
+}
+
+
+.text_4 p{
+    text-align: left;
+    font-size: 25px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: Crimson Text;
+
+}
+.last{
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: Crimson Text;
+    margin-top: 200px;
+    
+}
+.poroshenko,
+.zelya,
+.astanavites {
+  width: 250px; 
+  height: auto;
+  text-align: center;
+  transition: all .3s ease;
+  margin-top: 100px;
+}
+.screen_4 img{
+    height: 400px;
+}
+.button-back {
+    width: 200px;
+    height: 50px;
+    background-color: #474747;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translateX(0px);
+
+}
+
+.button-back:hover {
+    background-color: #838383;
+}
+
+}
